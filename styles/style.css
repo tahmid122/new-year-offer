@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* font-family: "Inter", serif */
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  box-sizing: border-box;
+}
+section {
+  width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+/* reuseable styles */
+
+/* main styles */
+main {
+  margin: 50px 140px;
+}
+.new-year-party {
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 18px;
+  color: white;
+  background-image: linear-gradient(0deg, #07021100, #070211),
+    url("../images/Banner\ Image.png");
+}
+.new-year-party h4 {
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+.new-year-party h1 {
+  font-size: 72px;
+}
+.offer {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.offer h1 {
+  font-size: 88px;
+  font-weight: bold;
+  color: red;
+  font-family: "Inter", serif;
+  margin-bottom: 10px;
+}
+.category {
+  text-align: center;
+}
+.category h5 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: "inter", serif;
+  color: red;
+}
+.category h3 {
+  font-size: 24px;
+  font-family: "inter", serif;
+  font-weight: bold;
+}
+.offer-image {
+  height: 500px;
+  margin-top: 30px;
+}
+.offer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.welcome {
+  border-radius: 16px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  padding: 126px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #070211, #07021100),
+    url("../images/Vectorrr.png");
+}
+.welcome h2 {
+  font-size: 64px;
+  width: 640px;
+  margin-bottom: 24px;
+}
+.welcome p {
+  font-size: 18px;
+  font-family: "inter", serif;
+  opacity: 0.8;
+  margin-bottom: 48px;
+  width: 640px;
+}
+
+.welcome span {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "inter", serif;
+}
+.welcome-image {
+  width: 320px;
+  height: 464px;
+}
+.welcome-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.venue {
+  height: 482px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), #ff000000);
+}
+.venue h3 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "inter", serif;
+}
+.venue h3 span {
+  color: red;
+}
+.venue button {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "inter", serif;
+  padding: 10px 32px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+.next-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+.next-comming {
+  width: 390px;
+  height: 255px;
+  display: inline-block;
+}
+.next-image {
+  width: 460px;
+  height: 460px;
+  display: inline-block;
+  padding: 30px;
+  border: 10px solid red;
+  border-radius: 50%;
+}
+.next-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.next-desc {
+  width: 460px;
+  display: inline-block;
+}
+.next-comming h5,
+.next-desc h5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "inter", serif;
+  margin-bottom: 16px;
+}
+.next-comming h2,
+.next-desc h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.next-comming p,
+.next-desc p {
+  font-size: 18px;
+  opacity: 0.8;
+  font-family: "inter", serif;
+  margin-bottom: 16px;
+}
+.next-desc img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+.holiday-sale {
+  height: 780px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.holiday-desc {
+  width: 1068px;
+  margin: 0 auto;
+}
+.holiday-desc h5 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "inter", serif;
+  margin-bottom: 12px;
+}
+.holiday-desc h1 {
+  font-size: 70px;
+  margin-bottom: 12px;
+}
+.holiday-desc h1 span {
+  color: red;
+}
+.holiday-desc p {
+  font-size: 18px;
+  opacity: 0.8;
+  font-family: "inter", serif;
+}
+.holiday-image {
+  height: 662px;
+  background-image: url("../images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+.discount {
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
+.fire {
+  height: 400px;
+  position: absolute;
+  left: 100px;
+  bottom: 40px;
+}
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter {
+  height: 616px;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter-content {
+  width: 895px;
+  text-align: center;
+}
+.newsletter img,
+h1,
+p,
+div {
+  margin-bottom: 40px;
+}
+.newsletter img {
+  width: 150px;
+  height: 150px;
+}
+.newsletter h1 {
+  font-size: 48px;
+}
+.newsletter p {
+  opacity: 0.8;
+  font-size: 18px;
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  margin: 0 auto;
+}
+.subscribe input,
+button {
+  height: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.subscribe input {
+  width: 70%;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  padding-left: 20px;
+}
+.subscribe button {
+  width: 30%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  font-size: 20px;
+  font-family: "inter", serif;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px 140px;
+}
+footer .information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.information p {
+  margin: 0;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "inter", serif;
+  font-weight: 500;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 5px;
+}
+
+.social {
+  text-align: center;
+}
+.social img {
+  height: 64px;
+  width: 64px;
+  object-fit: cover;
+  margin-right: 24px;
+}
+
+.copywrite {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
